@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="301dp"
+        android:background="#3F51B5"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number1EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Number 1"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+
+    <EditText
+        android:id="@+id/number2EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Number 2"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number1EditText" />
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="306dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="75dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult">
+
+        <Button
+            android:id="@+id/buttonCollect"
+            android:layout_width="82dp"
+            android:layout_height="49dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="#162B35"
+            android:onClick="collect"
+            android:text="+"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="82dp"
+            android:layout_height="49dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="#162B35"
+            android:onClick="divide"
+            android:text="/"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonImpact"
+            android:layout_width="82dp"
+            android:layout_height="49dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="#162B35"
+            android:onClick="impact"
+            android:text="*"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonExtraction"
+            android:layout_width="82dp"
+            android:layout_height="49dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="#162B35"
+            android:onClick="extraction"
+            android:text="-"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
