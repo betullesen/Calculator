@@ -9,8 +9,8 @@ This app is a simple calculator that allows the user to perform addition, subtra
 - **EditText**: Allows the user to input numbers.
 - **Button**: Enables user interaction for calculation operations.
 
-
-![screen-mp4](https://github.com/user-attachments/assets/fc5c16c1-95be-4f13-977c-c17555fd4b97)
+  
+![screen-mp4 (1)](https://github.com/user-attachments/assets/eed90081-177c-46c3-9ffb-87ab1700eb4a)
 
 
 
