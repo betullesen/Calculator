@@ -10,7 +10,8 @@ This app is a simple calculator that allows the user to perform addition, subtra
 - **Button**: Enables user interaction for calculation operations.
 
 
-![cal](https://github.com/user-attachments/assets/032d2d7c-1ea5-4752-a48e-abc15208389f)
+![cal-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1736bbb0-3a3d-4605-a70a-3a5e7383f889)
+
 
 
 
