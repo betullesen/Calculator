@@ -9,7 +9,8 @@ This app is a simple calculator that allows the user to perform addition, subtra
 - **EditText**: Allows the user to input numbers.
 - **Button**: Enables user interaction for calculation operations.
 
-- ## App Images
+
+ ## App Images
 
 
 ![cal-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/371e8628-b0d5-4e61-8fd6-773da67193dd)
